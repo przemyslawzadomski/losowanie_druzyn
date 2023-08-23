@@ -2,11 +2,12 @@
 import React, { useState } from "react";
 
 const RandomAssignment = () => {
-	const users: string[] = ["Zadek", "Tomek", "Marek", "Pioter", "Przemysław"];
+	const users: string[] = ["Zadek", "Tomek", "Marek", "Przemysław"];
 	const leagues: Record<string, string[]> = {
-		liga1: ["Brazylia", "Francja", "Niemcy", "Anglia", "Holandia"],
-		liga2: ["Portugalia", "Włochy", "Hiszpania", "Belgia", "Argentyna"],
-		liga3: ["Urugwaj", "Chorwacja", "Polska", "Austria", "Maroko"],
+		liga1: ["Brazylia", "Francja", "Niemcy", "Anglia"],
+		liga2: ["Portugalia", "Włochy", "Hiszpania", "Holandia"],
+		liga3: ["Urugwaj", "Chorwacja", "Belgia", "Argentyna"],
+		liga4: ["Polska", "Austria", "Maroko", "Dzika karta"],
 	};
 
 	const [selectedLeague, setSelectedLeague] = useState<string>("");
