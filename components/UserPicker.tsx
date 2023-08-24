@@ -6,8 +6,8 @@ const RandomAssignment = () => {
 	const leagues: Record<string, string[]> = {
 		liga1: ["Brazylia", "Francja", "Niemcy", "Anglia"],
 		liga2: ["Portugalia", "Włochy", "Hiszpania", "Holandia"],
-		liga3: ["Urugwaj", "Chorwacja", "Belgia", "Argentyna"],
-		liga4: ["Polska", "Austria", "Maroko", "Dzika karta"],
+		liga3: ["Polska", "Chorwacja", "Belgia", "Argentyna"],
+		liga4: ["Dania", "Austria", "Maroko", "Meksyk"],
 	};
 
 	const [selectedLeague, setSelectedLeague] = useState<string>("");
